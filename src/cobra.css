@@ -1,0 +1,45 @@
+#tela {
+    margin: 0;
+    background: black;
+    /* display: flex;
+    width: 80%;
+    Height: 80%;
+    border: 1px solid #c33;
+    position: fixed; 
+     top: 10%;
+     left: 10%; */
+}
+
+#score {
+    position: absolute;
+    left: 29vw;
+    color: blue
+}
+
+#scoreNome {
+    position: absolute;
+    left: 26vw;
+    color: blue
+}
+
+.div_especial{
+    position: absolute;
+    top: 3.8vh;
+    left: 26vw;
+    color: white;
+}
+
+canvas{
+    position:absolute;
+    left: 25%;
+}
+body{
+    background-image: url(./components/background.png);
+}
+
+.div_nivel{
+    position: absolute;
+    top: 3.8vh;
+    left: 70vw;
+    color: white;
+}
